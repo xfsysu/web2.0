@@ -1,0 +1,252 @@
+body{
+	width: 100%;
+	height: 100%;
+	font-family: cursive, Arial;
+	background-image: url("../img/background.jpg");
+	background-repeat: no-repeat;
+	background-size: 1366px 676px;
+	text-align: center;
+}
+
+#container{
+	width: auto;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#titleSection {
+	width: 357px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+}
+
+#start {
+	width: 70px;
+	height: 30px;
+	border-radius: 5px; 
+	background-color: #996600;
+	font-family: cursive;
+	font-weight: bold;
+	font-size: 15px;
+	margin-right: 10px;
+	outline: none;
+}
+
+#timeCount, #stepCount {
+	font-family: cursive;
+	width: 60px;
+	height: 17px;
+	background-color: #996600;
+	margin-right: 20px;
+	border-radius: 5px;
+}
+
+/*gameSection part*/
+#gameSection {
+	position: relative;
+	width: 354px;
+	height: 357px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#gameSection .imgPart {
+	width: 88px;
+	height: 88px;
+	margin: 1px;
+	border: 1px gray solid;
+	background-image: url("../img/panda.jpg");
+	background-size: 352px 352px;
+	position: absolute;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	line-height: 88px;
+	font-size: 30px;
+}
+
+#gameSection .imgPart:hover {
+	cursor: pointer;
+	transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-webkit-transform: scale(1.05);
+}
+
+/*设置16块图片的位置以及背景图片的位置*/
+#part1 {
+	top: 0px; 
+	left: 0px;
+}
+
+#part2 {
+	top: 0px; 
+	left: 89px; 
+	background-position: -89px 0px;
+}
+
+#part3 {top: 0px; 
+	left: 178px; 
+	background-position: -178px 0px;
+}
+
+#part4 {top: 0px; 
+	left: 267px; 
+	background-position: -268px 0px;
+}
+
+#part5 {
+	top: 89px; 
+	left: 0px; 
+	background-position: 0px -89px;
+}
+
+#part6 {
+	top: 89px; 
+	left: 89px; 
+	background-position: -89px -89px;
+}
+
+#part7 {
+	top: 89px; 
+	left: 178px; 
+	background-position: -178px -89px;
+}
+
+#part8 {
+	top: 89px; 
+	left: 267px; 
+	background-position: -268px -89px;
+}
+
+#part9 {
+	top: 178px; 
+	left: 0px; 
+	background-position: 0px -178px;
+}
+
+#part10 {
+	top: 178px; 
+	left: 89px; 
+	background-position: -89px -178px;
+}
+
+#part11 {
+	top: 178px; 
+	left: 178px; 
+	background-position: -178px -178px;
+}
+
+#part12 {
+	top: 178px; 
+	left: 267px; 
+	background-position: -267px -178px;
+}
+
+#part13 {
+	top: 267px; 
+	left: 0px; 
+	background-position: 0px -267px;
+}
+
+#part14 {
+	top: 267px; 
+	left: 89px; 
+	background-position: -89px -267px;
+}
+
+#part15 {
+	top: 267px; 
+	left: 178px; 
+	background-position: -178px -267px;
+}
+
+/*设置最后一块的透明度为0就可以了*/
+#part16 {
+	top: 267px; 
+	left: 267px; 
+	opacity: 0;
+}
+
+#changeBackground {
+	margin-top: 30px;
+}
+
+#changeBodyBackground, #changeImgBackground {
+	height: 30px;
+	margin-right: 40px;
+	border-radius: 5px;
+	outline: none;
+	background-color: #996600;
+}
+
+#start:hover, #changeBodyBackground:hover, #changeImgBackground:hover {
+	cursor: pointer;
+}
+
+/*设置不同的body背景图片*/
+body.background0 {
+	background-image: url("../img/background.jpg");
+}
+
+body.background1 {
+	background-image: url("../img/background1.jpg");
+}
+
+body.background2 {
+	background-image: url("../img/background2.jpg");
+}
+
+body.background3 {
+	background-image: url("../img/background3.jpg");
+}
+
+body.background4 {
+	background-image: url("../img/background4.jpg");
+}
+
+body.background5 {
+	background-image: url("../img/background5.jpg");
+}
+
+/*设置不同的img背景图片*/
+#gameSection .picture0 {
+	background-image: url("../img/panda.jpg");
+}
+
+#gameSection .picture1 {
+	background-image: url("../img/picture1.png");
+}
+
+#gameSection .picture2 {
+	background-image: url("../img/picture2.png");
+}
+
+#gameSection .picture3 {
+	background-image: url("../img/picture3.png");
+}
+
+#gameSection .picture4 {
+	background-image: url("../img/picture4.png");
+}
+
+#gameSection .picture5 {
+	background-image: url("../img/picture5.png");
+}
+
+#gameSection .picture6 {
+	background-image: url("../img/picture6.png");
+}
+
+#gameSection .picture7 {
+	background-image: url("../img/picture7.png");
+}
+
+#gameSection .picture8 {
+	background-image: url("../img/picture8.png");
+}
+
+#gameSection .picture9 {
+	background-image: url("../img/picture9.png");
+}

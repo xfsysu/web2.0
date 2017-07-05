@@ -1,0 +1,168 @@
+body{
+	width: 100%;
+	height: 100%;
+	font-family: cursive, Arial;
+	background-image: url("../img/background.jpg");
+	background-repeat: no-repeat;
+	background-size: 1366px 676px;
+	text-align: center;
+}
+
+#container{
+	width: auto;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#titleSection {
+	width: 357px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+}
+
+#start {
+	width: 70px;
+	height: 30px;
+	border-radius: 5px; 
+	background-color: #996600;
+	font-family: cursive;
+	font-weight: bold;
+	font-size: 15px;
+	margin-right: 10px;
+	outline: none;
+}
+
+#timeCount, #stepCount {
+	font-family: cursive;
+	width: 60px;
+	height: 17px;
+	background-color: #996600;
+	margin-right: 20px;
+	border-radius: 5px;
+}
+
+/*gameSection part*/
+#gameSection {
+	position: relative;
+	width: 354px;
+	height: 357px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#gameSection div {
+	width: 88px;
+	height: 88px;
+	margin: 1px;
+	border: 1px gray solid;
+	background-image: url("../img/panda.jpg");
+	background-size: 352px 352px;
+	position: absolute;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	line-height: 88px;
+	font-size: 30px;
+}
+
+#gameSection div:hover {
+	cursor: pointer;
+	transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-webkit-transform: scale(1.05);
+}
+
+.row1 {
+  top: 0%;
+}
+
+.row2 {
+  top: 25%;
+}
+
+.row3 {
+  top: 50%;
+
+}
+
+.row4 {
+  top: 75%;
+
+}
+
+.col1 {
+  left: 0%;
+
+}
+
+.col2 {
+  left: 25%;
+
+}
+
+.col3 {
+  left: 50%;
+
+}
+
+.col4 {
+  left: 75%;
+
+}
+
+#r1c1, #r1c2, #r1c3, #r1c4 {
+  background-position-y: 0px;
+}
+
+#r2c1, #r2c2, #r2c3, #r2c4 {
+  background-position-y: -88px;
+}
+
+#r3c1, #r3c2, #r3c3, #r3c4 {
+  background-position-y: 176px;
+}
+
+#r4c1, #r4c2, #r4c3, #r4c4 {
+  background-position-y: 88px;
+}
+
+#r1c1, #r2c1, #r3c1, #r4c1 {
+  background-position-x: 0px;
+}
+
+#r1c2, #r2c2, #r3c2, #r4c2 {
+  background-position-x: -88px;
+}
+
+#r1c3, #r2c3, #r3c3, #r4c3 {
+  background-position-x: 176px;
+}
+
+#r1c4, #r2c4, #r3c4, #r4c4 {
+  background-position-x: 88px;
+}
+
+/*设置最后一块的透明度为0就可以了*/
+#r4c4 {	
+	opacity: 0;
+}
+
+#changeBackground {
+	margin-top: 30px;
+}
+
+#changeBodyBackground, #changeImgBackground {
+	height: 30px;
+	margin-right: 40px;
+	border-radius: 5px;
+	outline: none;
+	background-color: #996600;
+}
+
+#start:hover, #changeBodyBackground:hover, #changeImgBackground:hover {
+	cursor: pointer;
+}
+
+

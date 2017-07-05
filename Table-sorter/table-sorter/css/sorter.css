@@ -1,0 +1,52 @@
+body {
+	width: 600px;
+	height: 500px;
+	margin: 20px auto;
+	font-family: Arial;
+	padding: 20px;
+	box-shadow: -1px 13px 3px #d2cccc;
+}
+
+table, table th, table td {
+	border: 1px solid gray;
+	border-collapse: collapse;/*合并边框*/
+	padding: 5px;
+	text-align: left;
+}
+
+thead {
+	background-color: #031A80;
+	color: white;
+	cursor: pointer;
+}
+
+#staff th {
+	padding-right: 25px;
+}
+
+tr.alternate td {
+	background-color: #DDDDDD;
+}
+
+td {
+	font-weight: bold;
+	font-size: 95%;
+}
+
+.click {
+	background-color: #A4B0FC;
+}
+
+.descend {
+  background-image: url("../img/descend.png");
+}
+
+.ascend {
+  background-image: url("../img/ascend.png");
+}
+
+.ascend, .descend {
+  background-position: 100% 50%;
+  background-repeat: no-repeat;
+}
+

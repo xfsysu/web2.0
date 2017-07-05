@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Hit Mouse</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<script type="text/javascript" src="../js/mole.js"></script>
+	<script type="text/javascript" src="../js/lodash.js"></script>
+	<script type="text/javascript" src="../js/jquery.js"></script>
+</head>
+
+<body>
+	<div>
+		<h1>Whac-a-mole</h1>
+		<h2>Test your skill. How many boxes(moles) can you check(hit) in 30 seconds?</h2>
+
+		<div id=count>
+			<input type="button" value="Start Game" id="start">
+			<div>Time:<input type="text" value="30" id="timeCount"></div>
+			<input type="button" value="Game Over" id="state">
+			<div id="score">Score:<input type="text" value="0" id="scoreCount" readonly="readonly"></div>
+		</div>
+		
+		<hr/>
+		<div id="ground"></div>
+		<hr/>
+		
+		<div id="footer">
+			<p>Instruction:</p>
+			<p>1.Click on the radio buttons(moles) as they are selected randomly by the computer.</p>
+			<p>2.1 point per hit, minus 1 point per miss.</p>
+		</div>
+	</div>
+</body>
+</html>
