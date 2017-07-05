@@ -1,0 +1,42 @@
+body {
+	font-family: Georgia, Garamond, serif, Helvetica;
+	text-align: center;
+	font-size: 120%;
+	margin-top: 50px;
+	color: rgb(64, 64, 64);
+}
+
+h1 {
+	color: chocolate;
+	background-color: rgb(240, 240, 240);
+	text-decoration: none;
+}
+
+#Section {
+	background-image: url("http://www.villageinn.com/i/pies/profile/lemonsupreme_main1.jpg");
+	padding: 250px 0;
+	margin: 60px;
+	color: white;
+	background-size: cover;
+}
+
+#Section h2 {
+	font-size: 2rem;
+	padding: 20px;
+}
+
+#Section p {
+	font-size: 1.7rem;
+}
+
+#Section a {
+	text-decoration: none;
+}
+
+#Section a:active, a:hover {
+	color: orange;
+}
+
+#Footer {
+	font-style: italic;
+}

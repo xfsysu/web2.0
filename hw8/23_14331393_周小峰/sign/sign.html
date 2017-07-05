@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="signStyle.css">
+	<script src="jquery.js"></script>
+	<script src="signAction.js"></script>
+</head>
+
+<body>
+	<h1>Register</h1>
+	<div>
+		<form action="post" method="post">
+			<h2>Sign Up</h2>
+			<div id="errorType">
+				Please input your information
+			</div>
+			<div>
+				<input type="text" name="username" class="content username" placeholder="username">
+			</div>
+			<div>
+				<input type="text" name="idNumber" class="content idNumber" placeholder="ID">
+			</div>
+			<div>
+				<input type="text" name="telephone" class="content telephone" placeholder="telephone">
+			</div>
+			<div>
+				<input type="text" name="email" class="content email" placeholder="email">
+			</div>
+			<div id="submitButton">
+				<input type="reset" value="reset">
+				<input type="submit" id="register" value="submit" method='post'>
+			</div>
+		</form>
+	</div>
+</body>
+</html>

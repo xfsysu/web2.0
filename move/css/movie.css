@@ -1,0 +1,150 @@
+/*
+	the style sheet of overall page
+ */
+#page {
+	background-image: url("http://my.ss.sysu.edu.cn/wiki/download/attachments/7045968/background.png?version=1&modificationDate=1268896312000");
+	font-size: 8pt;
+	font-family: Verdana, Tahoma, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+#banner {
+	background-image: url("http://my.ss.sysu.edu.cn/wiki/download/attachments/7045968/bannerbackground.png?version=1&modificationDate=1268896312000");
+	background-repeat: repeat-x;
+	text-align: center;
+	height: 50px;
+}
+
+
+#heading {
+	text-align: center;
+	font-size: 24pt;
+	font-weight: bold;
+}
+
+/*
+	the style sheet of the container and below will has its three parts
+ */
+#container {
+	margin: 0 auto;
+	width: 800px;
+	border: 4px gray solid;
+	overflow: hidden;
+}
+
+/*
+	the style sheet of the side part
+ */
+#side {
+	float: right;
+	width: 250px;
+	background-color: #A2B964;
+}
+
+#overview {
+	font-size: 8pt;
+	font-family: Arial, sans-serif;
+	margin: 10px;
+}
+
+#overview dt {
+	font-weight: bold;	
+}
+
+#overview dd {
+	margin-bottom: 1em;
+}
+
+/*
+	the style sheet of the content part
+ */
+#content {
+	width: 550px;
+	float: right;
+}
+
+#contentImg {
+	background-image: url("http://my.ss.sysu.edu.cn/wiki/download/attachments/7045968/rottenbackground.png?version=1&modificationDate=1268896385000");
+	background-repeat: repeat-x;
+	height: 83px;
+}
+
+#image {
+	vertical-align: bottom;
+}
+
+#rating {
+	font-size: 48pt;
+	color: red;
+	font-weight: bold;
+}
+
+#message {
+	font-size: 8pt;
+	color: white;
+}
+
+#col-l {
+	width: 47%;
+	margin: 0 2%;
+	float: left;
+}
+
+
+#col-r {
+	width: 47%;
+	margin-right: 2%;
+	float: left;
+
+}
+
+#content .comment {
+	border: gray 2px solid;
+	background-color: #E1D697;
+	overflow: hidden;
+	padding: 8px;
+}
+
+#col-l img, #col-r img {
+	float: left;
+	vertical-align: top;
+	margin-right: 5px;
+}
+
+#content q {
+	font-size: 8pt;
+	font-weight: bold;
+}
+
+#content .commentList {
+	margin-bottom: 3em;
+}
+
+#content .publication {
+	font-style: italic;
+}
+
+#invisible {
+	visibility: hidden;
+}
+
+/*
+	the style sheet of the footer part
+ */
+#footer p {
+	clear: right;
+	text-align: center;
+	background-color: #A2B964;
+	padding: 5px;
+	margin: 0;
+}
+
+/*
+	the position of the icon
+ */
+#icon {
+	position: fixed;
+	right: 0px;
+	bottom: 0px;
+}

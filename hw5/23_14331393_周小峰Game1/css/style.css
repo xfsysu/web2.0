@@ -1,0 +1,128 @@
+body {
+	height: 634px;
+	width: 935px;
+	font-family: Arial;
+	text-align: center;
+	box-shadow: 17px 18px 34px 17px #dadada;
+	margin: 10px auto;
+	padding: 1px;
+}
+
+h1 {
+	font-size: 33px;
+	font-weight: lighter;
+}
+
+h2 {
+	font-weight: normal;
+}
+
+#status {
+	height: 44px;
+	width: 100%;
+	text-align: center;
+	border: none;
+	font-size: 25px;
+	margin-bottom: 15px;
+	outline: none;
+	background-color: white;
+}
+
+#maze {
+	width: 501px;
+	height: 301px;
+	left: 212px;
+	padding: 0;
+	position: relative;
+}
+
+#maze div {
+	background-color: #eee;
+	position: absolute;
+}
+
+#firstBlock {
+	width: 149px;
+	height: 199px;
+	border: 1px black solid;
+}
+
+#secondBlock {
+	width: 151px;
+	height: 199px;
+	right: 0px;
+	top: 0px;
+	border: 1px black solid;
+}
+
+#thirdBlock {
+	width: 199px;
+	height: 49px;
+	left: 150px;
+	top: 0px;
+	border: 1px black solid;
+	border-left: none;
+	border-right: none;
+}
+
+#fourthBlock {
+	height: 49px;
+	width: 499px;
+	bottom: 0px;
+	border: 1px black solid;
+}
+
+#fifthBlock {
+	width: 99px;
+	height: 149px;
+	left: 200px;
+	bottom: 50px;
+	border: 1px black solid;
+	border-bottom: none;
+}
+
+#start, #end, #isCheat {
+	line-height: 39px;
+	font-weight: normal;
+	font-size: 33px;
+	width: 39px;
+	height: 39px;
+	border: 1px black solid;
+}
+
+#start {
+	left: 0;
+	bottom: 55px;
+	background-color: #8df98c !important;
+}
+
+#end {
+	right: 0;
+	bottom: 55px;
+	background-color: #8783f4 !important;
+}
+
+#isCheat {
+	bottom: 55px;
+	right: 43px;
+	border: none;
+	background-color: #FFF !important;
+}
+
+#foot {
+	margin-left: 173px;
+	width: 550px;
+	text-align: left;
+}
+
+#emptyBlock {
+	width: 100px;
+	height: 25px;
+	border: 1px black solid;
+	margin-left: 238px;
+	background-color: #eee;
+}
+
+#maze .redWall {
+	background-color: red !important;
+}

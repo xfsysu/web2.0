@@ -1,0 +1,15 @@
+body {
+	margin: 30px auto;
+	text-align: center;
+	background-image: url("../background/background.jpg");
+	background-size: 1370px 680px;
+	position: relative;
+}
+
+h1 {
+	color: white;
+}
+
+body div {
+
+}

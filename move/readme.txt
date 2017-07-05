@@ -1,0 +1,1 @@
+直接在html文件夹中打开tmnt.html即可。
